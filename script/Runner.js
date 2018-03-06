@@ -159,10 +159,6 @@ var Runner = (function (t) {
     				if(i == undefined || i == null)
     				{
     					i = m.callbackId;
-        				if(i == undefined || i == null)
-        				{
-        					i = "DEFAULT";
-        				}
     				}
     				var callback = this.getMapping(i);
     				if(callback == undefined)
